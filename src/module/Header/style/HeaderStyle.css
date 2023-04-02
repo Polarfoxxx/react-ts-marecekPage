@@ -1,0 +1,78 @@
+.header {
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.headerCont {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.headerComponent {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+/* -------------------------------------------- */
+.LogoBlock {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.LogoBlockLogo {
+    width: 360px;
+    height: 85px;
+    background-color: rgb(180, 30, 30);
+    position: relative;
+    left: 94px;
+}
+
+.LogoBlockLogo>img {
+    width: 100%;
+}
+
+/* -------------------------------------------- */
+.NaviBlock {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.naviBlockNavContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: start;
+}
+.naviBlockNavContent > div{
+    width: 110px;
+    height: 42px;
+    margin-right: 95px;
+}
+
+.naviBlockNavContent > div > button{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    font-size: 32px;
+}
+
