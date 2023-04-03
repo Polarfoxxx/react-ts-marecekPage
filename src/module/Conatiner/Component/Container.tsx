@@ -1,6 +1,6 @@
 
 import { Props } from "../type";
-import "../style/style.css"
+import "../style/container.style.css"
 
 
 const Container: React.FC<Props> = ({ children }) => {

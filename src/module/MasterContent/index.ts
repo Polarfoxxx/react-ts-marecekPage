@@ -1,0 +1,1 @@
+export { default as MasterContent } from "./Component/MasterContent"

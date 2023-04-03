@@ -1,4 +1,4 @@
-import "../style/HeaderStyle.css";
+import "../style/header.style.css";
 
 import LogoHeader from "./LogoHeader";
 import NaviBarHeader from "./NaviBarHeader";

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../../../../public/font/Gilroy-ExtraBold.otf);
+}
+
 .header {
     width: 100vw;
     height: 10vw;
@@ -75,7 +80,7 @@
     background-color: transparent;
     border: none;
     font-size: 1.4vw;
-    font-weight: bold;
+    font-family: Gilroy;
 }
 .naviBlockNavContent > div > button:hover{
     color: #FAC400;
