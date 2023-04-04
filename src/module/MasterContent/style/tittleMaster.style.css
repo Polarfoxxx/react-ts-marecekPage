@@ -1,0 +1,24 @@
+.tittleContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tittleContent .tittleBlock{
+    width: 100%;
+    height: 50%;
+    background-color: beige;
+}
+.tittleContent .contentBlock{
+    width: 100%;
+    height: 40%;
+    background-color: blueviolet;
+}
+.tittleContent .butttonBlock{
+    width: 100%;
+    height: 10%;
+    background-color: aquamarine;
+}
+

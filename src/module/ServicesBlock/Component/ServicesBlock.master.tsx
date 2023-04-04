@@ -1,13 +1,13 @@
 import "../style/servicesBlock.style.css"
 
-import TittleMasterBlock from "../../MasterContent/Component/TittleMasterBlock"
+import TittleServices from "./TittleServices"
 import ProductServices from "./ProductServices"
 
 function ServicesBlock(): JSX.Element {
     return (
         <div className="servicesBlockContent">
             <div className="servicesBlockTittle">
-                <TittleMasterBlock />
+                <TittleServices />
             </div>
             <div className="servicesBlockProduct">
                 <ProductServices />
