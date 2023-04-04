@@ -1,8 +1,8 @@
 
 import "../style/masterContent.style.css"
 
-import MasterTittleBlock from "./MasterTittleBlock"
-import MasterPortretBlock from "./MasterPortretBlock"
+import MasterTittleBlock from "./TittleMasterBlock"
+import MasterPortretBlock from "./PortretMasterBlock"
 
 function MasterContent(): JSX.Element {
     return (

@@ -1,1 +1,1 @@
-export { default as PortfolioBlock } from "./Component/PortfolioBlock"
+export { default as PortfolioBlock } from "./Component/PortfolioBlock.master"
