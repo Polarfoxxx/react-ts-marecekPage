@@ -1,4 +1,4 @@
-
+import "../style/logoHeader.style.css"
 
 function LogoHeader(): JSX.Element {
     return(

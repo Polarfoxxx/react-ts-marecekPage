@@ -1,4 +1,4 @@
-
+import "../style/navyBarHeader.style.css"
 
 function NaviBarHeader(): JSX.Element {
 
