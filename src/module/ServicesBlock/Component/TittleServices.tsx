@@ -1,6 +1,6 @@
 import "../style/tittleServices.style.css"
 
-function TittleServices() {
+function TittleServices(): JSX.Element {
     return(
         <div>
             

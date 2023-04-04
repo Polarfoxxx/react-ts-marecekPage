@@ -1,6 +1,6 @@
 import "../style/tittleMaster.style.css"
 
-function TittleMasterBlock() {
+function TittleMasterBlock(): JSX.Element {
     return(
         <div>
 

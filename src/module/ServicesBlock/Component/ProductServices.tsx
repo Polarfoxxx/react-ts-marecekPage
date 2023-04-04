@@ -1,6 +1,6 @@
 import "../style/productServices.style.css"
 
-function ProductServices() {
+function ProductServices(): JSX.Element {
     return(
         <div>
             
