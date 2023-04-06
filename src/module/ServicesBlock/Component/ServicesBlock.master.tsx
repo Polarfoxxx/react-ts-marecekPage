@@ -1,14 +1,19 @@
 import "../style/servicesBlock.style.css"
-import { useRef } from "react"
+import { useRef, useContext, useEffect } from "react"
+import { Container } from "../../Conatiner"
 
 import TittleServices from "./TittleServices"
 import ProductServices from "./ProductServices"
 
 function ServicesBlock(): JSX.Element {
+    const { navButtonName } = useContext(Container.Context)
     const servisBlockRef = useRef<HTMLDivElement>(null)
   
-    useRef(() => {
-
+    useEffect(() => {
+        if(navButtonName === "Sluzby") {
+            servisBlockRef.current?.scrollIntoView({behavior: 'smooth'});
+        }
+        
     })
     
     return (
