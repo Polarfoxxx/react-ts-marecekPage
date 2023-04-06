@@ -10,13 +10,13 @@ import { FooterBlock } from './module/FooterBlock';
 function App() {
   return (
     <div className='app'>
-      <Container>
+      <Container.Provider>
         <Header />
         <MasterContent />
         <ServicesBlock />
         <PortfolioBlock />
         <FooterBlock />
-      </Container>
+      </Container.Provider>
     </div>
   )
 }

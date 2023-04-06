@@ -3,8 +3,8 @@ import "../style/navyBarHeader.style.css"
 function NaviBarHeader(): JSX.Element {
 
     const handleButoonClick = (e: React.MouseEvent<HTMLButtonElement>): void => {
-        const buttonIdent = e.currentTarget.innerText as string
-            console.log(buttonIdent);
+        const buttonIdent = e.currentTarget.innerText as string;
+            
     }
 
     return (
