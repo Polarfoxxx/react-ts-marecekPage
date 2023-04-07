@@ -7,13 +7,12 @@ import ProductServices from "./ProductServices"
 
 function ServicesBlock(): JSX.Element {
     const { navButtonName } = useContext(Container.Context)
-    const servisBlockRef = useRef<HTMLDivElement>(null)
+    const servisBlockRef = useRef<HTMLDivElement | null>(null)
   
     useEffect(() => {
         if(navButtonName === "Sluzby") {
             servisBlockRef.current?.scrollIntoView({behavior: 'smooth'});
         }
-        
     })
     
     return (
