@@ -1,5 +1,5 @@
 import "../style/footerBlock.style.css"
-import { useRef, useContext, useEffect } from "react";
+import { useRef, useContext, useEffect } from "react"
 
 import { Container } from "../../Conatiner"
 
