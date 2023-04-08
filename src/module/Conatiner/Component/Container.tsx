@@ -15,7 +15,7 @@ const Context = createContext<typeContext>({
 
 const Provider: React.FC<Props> = ({ children }) => {
     const [navButtonName, setNavButtonName] = useState("")
-    const [dd, setdd] = useState(false)
+    const [opacityScroolBtn, SetopacityScroolBtn] = useState(false)
 
     /* event na presun na top stranky */
     const handleScroolTop = (): void => {
@@ -25,23 +25,22 @@ const Provider: React.FC<Props> = ({ children }) => {
     const handleScrollPage = (eScroll: React.UIEvent<HTMLElement>): void => {
         if (eScroll.currentTarget.scrollTop > 300) {
             setTimeout(() => {
-                setdd(true)
                 setNavButtonName("")
+                SetopacityScroolBtn(true)
             }, 500)
 
         } else if (eScroll.currentTarget.scrollTop < 300) {
             setTimeout(() => {
-                setdd(false)
                 setNavButtonName("")
+                SetopacityScroolBtn(false)
             }, 500)
         }
     }
 
-
     return (
         <div className="container"
             onScroll={handleScrollPage}>
-            <span style={{ opacity: dd ? "1" : "0", zIndex: dd ? "5" : "-5"  }}
+            <span style={{ opacity: opacityScroolBtn ? "1" : "0", zIndex: opacityScroolBtn ? "5" : "-5"  }}
                 className="scroller"
                 onClick={handleScroolTop}>
                 {<FontAwesomeIcon icon={faArrowUp} size="lg" />}

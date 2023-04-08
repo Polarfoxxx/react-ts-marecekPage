@@ -1,15 +1,8 @@
-.LogoBlock {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
 
 .LogoBlockLogo {
-    width: 24vw;
-    height: 5.5vw;
+    width: 19vw;
+    height: auto;
     background-color: rgb(180, 30, 30);
-    position: relative;
-    left: 94px;
 }
 
 .LogoBlockLogo>img {

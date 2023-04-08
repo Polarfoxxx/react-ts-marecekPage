@@ -1,0 +1,26 @@
+.tittleContentDetail{
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+.tittleContentDetail .tittleImageBlock{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+/* ------------------------------------------ */
+.tittleContentDetail .tittleTectBlock{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(23, 0, 151);
+    display: flex;
+    flex-direction: column;
+}
+.tittleContentDetail .tittleTectBlock > span{
+    height: 5vw;
+    font-size: 5vw;
+    font-family: var(--font);
+}
+

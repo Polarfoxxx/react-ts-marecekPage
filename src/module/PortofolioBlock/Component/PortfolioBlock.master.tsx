@@ -31,12 +31,12 @@ function PortfolioBlock(): JSX.Element {
                 </Link>
               </div>
               <div className="link-block">
-                <Link className="logo" to="/RouterCloud">
+                <Link className="logo" to="/logo">
                   Logo
                 </Link>
               </div>
               <div className="link-block">
-                <Link className="tlacovky" to="/RouterPressure">
+                <Link className="tlacovky" to="/tlacovky">
                   Tlacovky
                 </Link>
               </div>

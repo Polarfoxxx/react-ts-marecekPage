@@ -1,13 +1,22 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(../public/font/Gilroy-ExtraBold.otf);
+}
+
+:root {
+  --orangeColor: #FAC400;
+  --font: Gilroy;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
- 
-body{
-  -ms-overflow-style: none; 
-  scrollbar-width: none; 
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   width: 100vw;
   height: 100vh;
 }

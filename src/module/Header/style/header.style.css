@@ -1,19 +1,14 @@
-@font-face {
-    font-family: Gilroy;
-    src: url(../../../../public/font/Gilroy-ExtraBold.otf);
-}
+
 .header {
     width: 100vw;
-    height: 10vw;
+    height: 7vw;
     display: flex;
     align-items: start;
     justify-content: center;
     flex-direction: column;
     background-color: blue;
-    /* position: sticky;
-    top: 0;
-    z-index: 5 */
 }
+
 .header .headerCont {
     width: 100%;
     height: 6vw;
@@ -22,8 +17,27 @@
     justify-content: center;
     flex-direction: row;
 }
+
 .header .headerCont .headerComponent {
+    height: 100%;
+    border: 1px solid rgb(161, 105, 105);
+}
+
+
+
+.header .headerCont .LogoBlock {
     width: 100%;
     height: 100%;
-    border: 1px solid red;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 0.5vw;
+}
+
+.header .headerCont .NaviBlock {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
 }
