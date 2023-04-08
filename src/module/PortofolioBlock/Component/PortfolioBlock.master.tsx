@@ -11,6 +11,7 @@ function PortfolioBlock(): JSX.Element {
   const { navButtonName } = useContext(Container.Context);
   const portfolioBlockRef = useRef<HTMLDivElement | null>(null);
 
+    /* scroll presun na component */
   useEffect(() => {
     if (navButtonName === "Portfolio") {
       portfolioBlockRef.current?.scrollIntoView({ behavior: "smooth" });

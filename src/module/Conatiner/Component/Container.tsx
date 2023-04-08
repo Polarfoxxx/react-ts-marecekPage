@@ -5,33 +5,34 @@ import { createContext, useState } from "react";
 import "../style/container.style.css";
 
 const Context = createContext<typeContext>({
-  navButtonName: "",
-  setNavButtonName: () => {},
+    navButtonName: "",
+    setNavButtonName: () => { },
 });
 
 const Provider: React.FC<Props> = ({ children }) => {
-  const [navButtonName, setNavButtonName] = useState("");
+    const [navButtonName, setNavButtonName] = useState("");
 
-  const handleScroolTop = () => {
-    setNavButtonName("default")
-  }
+    /* button na presun na top stranky */
+    const handleScroolTop = () => {
+        setNavButtonName("default")
+    }
 
-  return (
-    <div className="container">
-      <span className="scroller"
-            onClick={handleScroolTop}>
-        to top
-    </span>
-      <Context.Provider value={{ navButtonName, setNavButtonName }}>
-        {children}
-      </Context.Provider>
-    </div>
-  );
+    return (
+        <div className="container">
+            <span className="scroller"
+                onClick={handleScroolTop}>
+                to top
+            </span>
+            <Context.Provider value={{ navButtonName, setNavButtonName }}>
+                {children}
+            </Context.Provider>
+        </div>
+    );
 };
 
 const Container = {
-  Provider,
-  Context,
+    Provider,
+    Context,
 };
 
 export default Container;

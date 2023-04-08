@@ -8,16 +8,17 @@ import ProductServices from "./ProductServices"
 function ServicesBlock(): JSX.Element {
     const { navButtonName } = useContext(Container.Context)
     const servisBlockRef = useRef<HTMLDivElement | null>(null)
-  
+
+    /* scroll presun na component */
     useEffect(() => {
-        if(navButtonName === "Sluzby") {
-            servisBlockRef.current?.scrollIntoView({behavior: 'smooth'});
+        if (navButtonName === "Sluzby") {
+            servisBlockRef.current?.scrollIntoView({ behavior: 'smooth' });
         }
     })
-    
+
     return (
         <div className="servicesBlockContent"
-             ref={servisBlockRef}>
+            ref={servisBlockRef}>
             <div className="servicesBlockTittle">
                 <TittleServices />
             </div>

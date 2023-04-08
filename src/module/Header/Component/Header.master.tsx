@@ -6,19 +6,20 @@ import LogoHeader from "./LogoHeader";
 import NaviBarHeader from "./NaviBarHeader";
 
 function Header(): JSX.Element {
-    const { navButtonName } = useContext(Container.Context);
-    const defaultBlockRef = useRef<HTMLDivElement | null>(null);
-  
-    useEffect(() => {
-      if (navButtonName === "default") {
-        defaultBlockRef.current?.scrollIntoView({ behavior: "smooth" });
-      }
-    });
+  const { navButtonName } = useContext(Container.Context);
+  const defaultBlockRef = useRef<HTMLDivElement | null>(null);
+
+  /* scroll presun na component */
+  useEffect(() => {
+    if (navButtonName === "default") {
+      defaultBlockRef.current?.scrollIntoView({ behavior: "smooth" });
+    }
+  });
 
 
   return (
     <div className="header"
-         ref={defaultBlockRef}>
+      ref={defaultBlockRef}>
       <div className="headerCont">
         <div className="headerComponent LogoBlock">
           <LogoHeader />
