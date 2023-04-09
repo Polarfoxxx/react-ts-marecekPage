@@ -1,2 +1,6 @@
 export { default as ServicesBlock } from "./Component/ServicesBlock.master"
 export { default as TittleServices} from "./Component/TittleServices"
+export { default as ProductLeftTop} from "./Component/Product.leftTop"
+export { default as ProductRightTop} from "./Component/Product.rightTop"
+export { default as ProductBottomLeft} from "./Component/Product.bottomLeft"
+export { default as ProductBottomRight} from "./Component/Product.bottomRight"

@@ -24,10 +24,3 @@
     align-items: center;
     
 }
-.productServContent .ContentRow .productBlock .product{
-    width: 87%;
-    height: 87%;
-    border: 1px solid orange;
-    border-radius: 30px;
-    padding: 3.4vw;
-}
