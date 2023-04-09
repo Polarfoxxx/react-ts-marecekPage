@@ -18,9 +18,35 @@
     display: flex;
     flex-direction: column;
 }
-.tittleContentDetail .tittleTectBlock > span{
+.tittleContentDetail .tittleTectBlock > div{
     height: 5vw;
     font-size: 5vw;
     font-family: var(--font);
+    border: 1px solid red;
 }
-
+.tittleContentDetail .tittleTectBlock .lastLine{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+}
+.tittleContentDetail .tittleTectBlock .lastLine .inName{
+    background-color: bisque;
+    width: 5vw;
+}
+.tittleContentDetail .tittleTectBlock .lastLine .slovakiaName{
+    background-color: rgb(255, 0, 191);
+    width: 22.5vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+.tittleContentDetail .tittleTectBlock .lastLine .slovakiaName::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -1vw;
+    height: 2vw;
+    background-color: var(--orangeColor);
+    z-index: -1;
+}

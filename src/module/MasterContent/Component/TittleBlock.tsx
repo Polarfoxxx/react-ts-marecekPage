@@ -7,9 +7,12 @@ function TittleBlock(): JSX.Element {
                 <img src="" alt="" />
             </div>
             <div className="tittleTectBlock">
-               <span>is a creative</span>
-               <span>designer based</span>
-               <span>in Slovakia</span>
+                <div>is a creative</div>
+                <div>designer based</div>
+                <div className="lastLine">
+                    <span className="inName">in</span>
+                    <span className="slovakiaName">Slovakia</span>
+                </div>
             </div>
         </div>
     )
