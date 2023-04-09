@@ -4,12 +4,11 @@ import "../style/button.style.css"
 function ButttonBlock(): JSX.Element {
     return (
         <div className="buttonBlock">
-            <div className="buttonPortfolio">
+            <div className="buttonPortfolio btnBlock">
                 <button>Portfolio</button>
             </div>
-            <div className="buttonContact">
+            <div className="buttonContact btnBlock">
                 <button>Kontakt</button>
-
             </div>
         </div>
     )

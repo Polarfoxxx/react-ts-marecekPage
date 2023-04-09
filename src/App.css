@@ -11,6 +11,7 @@
 :root {
   --orangeColor: #FAC400;
   --font: Gilroy;
+  --fontMerr: Merriweather-Light
 }
 
 * {

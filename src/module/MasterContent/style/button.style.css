@@ -1,0 +1,44 @@
+.buttonBlock{
+    width: 70%;
+    height: 100%;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonBlock .btnBlock{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.buttonBlock .btnBlock > button{
+    width: 13vw;
+    height: 4vw;
+    border-radius: 50px;
+    font-family: var(--font);
+    border: 2px solid var(--orangeColor);
+    font-size: 1.8vw;
+    font-weight: 800;
+    cursor: pointer;
+}
+.buttonBlock .buttonPortfolio > button{
+    background-color: var(--orangeColor);
+    color: white;
+}
+.buttonBlock .buttonPortfolio > button:hover{
+    background-color: black;
+    color: var(--orangeColor);
+    border: 2px solid black;
+
+}
+/* --------------------------------------- */
+.buttonBlock .buttonContact > button{
+    background-color: white;
+    color: black;
+}
+.buttonBlock .buttonContact > button:hover{
+    color: var(--orangeColor);
+}
