@@ -1,0 +1,33 @@
+.productServContent{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productServContent .ContentRow{
+    width: 95%;
+    height: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.productServContent .ContentRow .productBlock{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(153, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.productServContent .ContentRow .productBlock .product{
+    width: 87%;
+    height: 87%;
+    border: 1px solid orange;
+    border-radius: 30px;
+    padding: 3.4vw;
+}
