@@ -23,15 +23,13 @@
     border: 1px solid rgb(161, 105, 105);
 }
 
-
-
 .header .headerCont .LogoBlock {
-    width: 90%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-left: 0.5vw;
+    padding-left: 4vw;
 }
 
 .header .headerCont .NaviBlock {

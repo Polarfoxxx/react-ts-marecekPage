@@ -9,7 +9,14 @@
     width: 100%;
     height: 100%;
     background-color: aqua;
+    position: relative;
 }
+.tittleContentDetail .tittleImageBlock > img{
+    background-color: transparent;
+    position: relative;
+    top: 5vw;
+}
+
 /* ------------------------------------------ */
 .tittleContentDetail .tittleTectBlock{
     width: 100%;

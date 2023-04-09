@@ -4,7 +4,7 @@ function TittleBlock(): JSX.Element {
     return (
         <div className="tittleContentDetail">
             <div className="tittleImageBlock">
-                <img src="" alt="" />
+                <img src="../../../../img.tittle/namelogo.png" alt="" />
             </div>
             <div className="tittleTectBlock">
                 <div>is a creative</div>
