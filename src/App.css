@@ -2,6 +2,11 @@
   font-family: Gilroy;
   src: url(../public/font/Gilroy-ExtraBold.otf);
 }
+@font-face {
+  font-family: Merriweather-Light;
+  src: url(../public/font/Merriweather-Light.ttf);
+}
+
 
 :root {
   --orangeColor: #FAC400;

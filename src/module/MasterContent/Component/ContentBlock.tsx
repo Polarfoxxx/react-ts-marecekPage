@@ -2,8 +2,8 @@ import "../style/content.style.css"
 
 function ContentBlock(): JSX.Element {
     return (
-        <div>
-            <div>
+        <div className="contentDetailBlock">
+            <div className="contDetContent">
                 <h2>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna
