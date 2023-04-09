@@ -4,11 +4,11 @@ function ProductLeftTop(): JSX.Element {
     return (
         <div className="product">
             <div className="prodTittle">
-                <span>01</span>
-                <span>Logo dizajn</span>
+                <span className="number">01</span>
+                <span className="tittles">Logo dizajn</span>
             </div>
             <div className="prodContent">
-                <span>
+                <span className="content">
                     Quam nulla porttitor massa id.
                     Consectetur purus ut faucibus pulvinar
                     elementum integer enim neque volutpat.

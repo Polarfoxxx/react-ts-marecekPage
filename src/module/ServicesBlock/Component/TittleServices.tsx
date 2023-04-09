@@ -1,9 +1,11 @@
 import "../style/tittleServices.style.css"
 
 function TittleServices(): JSX.Element {
-    return(
-        <div>
-            <h1>Sluzby</h1>
+    return (
+        <div className="tittleServicesComp">
+            <div className="tittleBl">
+                <img src="../../../../img.tittle/sluzbyTittle.png" alt="" />
+            </div>
         </div>
     )
 }

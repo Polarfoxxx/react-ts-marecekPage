@@ -3,6 +3,11 @@
   src: url(../public/font/Gilroy-ExtraBold.otf);
 }
 @font-face {
+  font-family: GilroyLight;
+  src: url(../public/font/Gilroy-Light.otf);
+}
+
+@font-face {
   font-family: Merriweather-Light;
   src: url(../public/font/Merriweather-Light.ttf);
 }
@@ -11,6 +16,7 @@
 :root {
   --orangeColor: #FAC400;
   --font: Gilroy;
+  --fontLight: GilroyLight;
   --fontMerr: Merriweather-Light
 }
 
