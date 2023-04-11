@@ -1,13 +1,16 @@
 .productServContent{
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    background-image: url("../../../../public//img/Rectangle.png");
+    background-size: 100%;
+    background-position: center 13vw;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .productServContent .ContentRow{
-    width: 95%;
+    width: 87%;
     height: 100%;
     border: 1px solid red;
     display: flex;
