@@ -11,7 +11,7 @@ function PortfolioBlock(): JSX.Element {
   const { navButtonName } = useContext(Container.Context);
   const portfolioBlockRef = useRef<HTMLDivElement | null>(null);
 
-    /* scroll presun na component */
+  /* scroll presun na component */
   useEffect(() => {
     if (navButtonName === "Portfolio") {
       portfolioBlockRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -19,25 +19,38 @@ function PortfolioBlock(): JSX.Element {
   });
 
   return (
-    <div className="portfolioBlockContent" 
-         ref={portfolioBlockRef}>
+    <div className="portfolioBlockContent"
+      ref={portfolioBlockRef}>
       <div className="portfolioRouter">
         <BrowserRouter>
           <div className="routes-container">
+            <div className="portfolio-tittle">
+              <img src="../../../../img.tittle/portfoliotxt.png" alt="" />
+            </div>
             <div className="toogle-link-container">
               <div className="link-block">
-                <Link className="all" to="/">
+                <Link className="link all" to="/">
                   All
                 </Link>
               </div>
               <div className="link-block">
-                <Link className="logo" to="/logo">
+                <Link className="link logo" to="/logo">
                   Logo
                 </Link>
               </div>
               <div className="link-block">
-                <Link className="tlacovky" to="/tlacovky">
+                <Link className="link tlacovky" to="/tlacovky">
                   Tlacovky
+                </Link>
+              </div>
+              <div className="link-block">
+                <Link className="link ilustrace" to="/ilustrace">
+                  Ilustrace
+                </Link>
+              </div>
+              <div className="link-block">
+                <Link className="link webDizajn" to="/webdizajn">
+                  Webdizajn
                 </Link>
               </div>
             </div>

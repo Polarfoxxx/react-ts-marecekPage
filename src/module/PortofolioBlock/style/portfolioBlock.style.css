@@ -3,5 +3,67 @@
     width: 100%;
     height: 50vw;
     background-color: rgb(125, 125, 145);
-    
+    padding-top: 5vw;
 }
+.portfolioBlockContent .portfolioRouter{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.portfolioBlockContent .portfolioRouter .routes-container{
+    background-color: white;
+    width: 85%;
+    height: 30%;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: row;
+}
+/* ----------------------------------------- */
+.portfolioBlockContent .portfolioRouter .routes-container .portfolio-tittle{
+    width: 40%;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolioBlockContent .portfolioRouter .routes-container .portfolio-tittle > img{
+    width: 100%;
+    background-color: blue;
+}
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+
+.portfolioBlockContent .portfolioRouter .routes-container .toogle-link-container{
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2vw;
+}
+.portfolioBlockContent .portfolioRouter .routes-container .toogle-link-container .link-block{
+    width: 9vw;
+    height: 2vw;
+    border: 1px solid red;
+  
+}
+.portfolioBlockContent .portfolioRouter .routes-container .toogle-link-container .link-block .link{
+    color: brown;
+    font-family: var(--fontLight);
+    font-weight: 300;
+    font-size: 1.5vw;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
