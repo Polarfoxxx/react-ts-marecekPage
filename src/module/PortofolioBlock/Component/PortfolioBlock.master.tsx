@@ -6,6 +6,8 @@ import { Container } from "../../Conatiner";
 import AllProductRouter from "./AllProduct.router";
 import LogoDizajnRouter from "./LogoDizajn.router";
 import TlacovkyRouter from "./Tlacovky.router";
+import IlustraceRouter from "./Ilustrace.router";
+import WebdizajnRouter from "./Webdizajn.router";
 
 function PortfolioBlock(): JSX.Element {
   const { navButtonName } = useContext(Container.Context);
@@ -61,6 +63,8 @@ function PortfolioBlock(): JSX.Element {
               <Route index element={<AllProductRouter />} />
               <Route path="logo" element={<LogoDizajnRouter />} />
               <Route path="tlacovky" element={<TlacovkyRouter />} />
+              <Route path="ilustrace" element={<IlustraceRouter />} />
+              <Route path="webdizajn" element={<WebdizajnRouter />} />
             </Routes>
           </div>
         </div>

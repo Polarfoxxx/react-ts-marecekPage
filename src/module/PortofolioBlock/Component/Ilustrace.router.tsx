@@ -1,6 +1,6 @@
 import "../style/Product_Router.master.style.css"
 
-function AllProduct_Router(): JSX.Element {
+function Ilustrace_router(): JSX.Element {
     return (
         <div className="allProduct">
             <div className="allProductContent">
@@ -22,4 +22,4 @@ function AllProduct_Router(): JSX.Element {
         </div>
     )
 }
-export default AllProduct_Router
+export default Ilustrace_router

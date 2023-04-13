@@ -1,5 +1,6 @@
 
-import "../style/tlacovky_Router.style.css"
+import "../style/Product_Router.master.style.css"
+
 
 function Tlacovky_Router(): JSX.Element {
     return(

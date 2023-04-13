@@ -1,4 +1,5 @@
-import "../style/logoDizajn_Rouer.style.css"
+import "../style/Product_Router.master.style.css"
+
 
 
 function LogoDizajn_Router(): JSX.Element {
