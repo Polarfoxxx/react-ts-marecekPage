@@ -3,5 +3,54 @@
     width: 100%;
     height: 50vw;
     background-color: rgb(0, 255, 170);
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.footerBlockContent .footerTittle{
+    width: 85%;
+    height: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: black;
+}
+.footerBlockContent .footerTittle .footerTittleImg{
+    width: auto;
+    height: auto;
+}
+.footerBlockContent .footerTittle .footerTittleImg >img{
+    width: 25vw;
+}
+/* ----------------------------------- */
+.footerBlockContent .footerMedia{
+    width: 85%;
+    min-height: 60%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.footerBlockContent .footerMedia .fotBlock{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+.footerBlockContent .footerLastRow{
+    width: 85%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.footerBlockContent .footerLastRow .lastRowTxt{
+    width: auto;
+    height: auto;
+    position: relative;
+    background-color: aliceblue;
+    bottom: 0.5vw;
 }

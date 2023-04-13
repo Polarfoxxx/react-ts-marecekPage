@@ -14,14 +14,28 @@ function FooterBlock(): JSX.Element {
       kontaktBlockRef.current?.scrollIntoView({ behavior: "smooth" });
     }
   });
+
+
   return (
     <div className="footerBlockContent"
       ref={kontaktBlockRef}>
-      <div className="footerContact">
+      <div className="footerTittle">
+          <div className="footerTittleImg">
+              <img src="../../../../img.tittle/footerTittles.png" alt="" />
+          </div>
+      </div>
+      <div className="footerMedia">
+        <div className="footerContact fotBlock">
+
+        </div>
+      </div>
+      <div className="footerInstagram fotBlock">
 
       </div>
-      <div className="footerInstagram">
-
+      <div className="footerLastRow">
+        <div className="lastRowTxt">
+        <h1>stara Gartda</h1>
+        </div>
       </div>
     </div>
   )
