@@ -3,6 +3,8 @@ import { useRef, useContext, useEffect } from "react"
 
 import { Container } from "../../Conatiner"
 
+import ContactFooter from "./ContactFooter";
+import InstagramFooter from "./InstagramFooter";
 
 function FooterBlock(): JSX.Element {
   const { navButtonName } = useContext(Container.Context);
@@ -15,26 +17,25 @@ function FooterBlock(): JSX.Element {
     }
   });
 
-
   return (
     <div className="footerBlockContent"
       ref={kontaktBlockRef}>
       <div className="footerTittle">
-          <div className="footerTittleImg">
-              <img src="../../../../img.tittle/footerTittles.png" alt="" />
-          </div>
+        <div className="footerTittleImg">
+          <img src="../../../../img.tittle/footerTittles.png" alt="" />
+        </div>
       </div>
       <div className="footerMedia">
         <div className="footerContact fotBlock">
-
+          <ContactFooter />
         </div>
-      </div>
-      <div className="footerInstagram fotBlock">
-
+        <div className="footerInstagram fotBlock">
+          <InstagramFooter />
+        </div>
       </div>
       <div className="footerLastRow">
         <div className="lastRowTxt">
-        <h1>stara Gartda</h1>
+          <h1>stara Gartda</h1>
         </div>
       </div>
     </div>
