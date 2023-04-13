@@ -1,7 +1,7 @@
 
 .portfolioBlockContent{
     width: 100%;
-    height: 70vw;
+    height: 65vw;
     background-color: rgb(125, 125, 145);
     padding-top: 5vw;
 }
@@ -65,5 +65,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+
+.portfolioBlockContent .portfolioRouter .routes-block{
+    width: 100%;
+    min-height: 100%;
+    background-color: aqua;
 }
 

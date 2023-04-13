@@ -21,8 +21,9 @@ function PortfolioBlock(): JSX.Element {
   return (
     <div className="portfolioBlockContent"
       ref={portfolioBlockRef}>
-      <div className="portfolioRouter">
-        <BrowserRouter>
+      <BrowserRouter>
+
+        <div className="portfolioRouter">
           <div className="routes-container">
             <div className="portfolio-tittle">
               <img src="../../../../img.tittle/portfoliotxt.png" alt="" />
@@ -54,16 +55,17 @@ function PortfolioBlock(): JSX.Element {
                 </Link>
               </div>
             </div>
-            <div className="routes-block">
-              <Routes>
-                <Route index element={<AllProductRouter />} />
-                <Route path="logo" element={<LogoDizajnRouter />} />
-                <Route path="tlacovky" element={<TlacovkyRouter />} />
-              </Routes>
-            </div>
           </div>
-        </BrowserRouter>
-      </div>
+          <div className="routes-block">
+            <Routes>
+              <Route index element={<AllProductRouter />} />
+              <Route path="logo" element={<LogoDizajnRouter />} />
+              <Route path="tlacovky" element={<TlacovkyRouter />} />
+            </Routes>
+          </div>
+        </div>
+      </BrowserRouter>
+
     </div>
   );
 }
