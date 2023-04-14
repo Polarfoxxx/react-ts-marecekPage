@@ -35,7 +35,7 @@ function FooterBlock(): JSX.Element {
       </div>
       <div className="footerLastRow">
         <div className="lastRowTxt">
-          <h1>stara Gartda</h1>
+          <h1>Developed by Stará Garda od Radka Kissa © 2023</h1>
         </div>
       </div>
     </div>

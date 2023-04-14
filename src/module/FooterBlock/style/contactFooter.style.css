@@ -1,5 +1,90 @@
-.contactFooterBlock{
-    width: 100%;
+.contactFooterBlock {
+    width: 90%;
     height: 100%;
     background-color: brown;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.contactFooterBlock .contactTellEmailBlock {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 2.5vw;
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+.contactFooterBlock .tellblock {
+    width: 70%;
+    height: auto;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+}
+
+.contactFooterBlock .tellblock>div {
+    width: auto;
+    height: auto;
+    border: 1px solid red;
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 800;
+}
+.contactFooterBlock .tellblock>div>h1{
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.7vw;
+}
+
+/* ------------------------------------------------ */
+.contactFooterBlock .EmailBlock{
+    width: 70%;
+    height: auto;
+    background-color: rgb(148, 90, 13);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+}
+.contactFooterBlock .EmailBlock .emailLogo{
+    width: auto;
+    height: auto;
+    border: 1px solid red;
+}
+.contactFooterBlock .EmailBlock .emailLink .email > a{
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.7vw;
+    text-decoration: none;
+    color: white;
+}
+/* ------------------------------------------------ */
+.contactFooterBlock .contactTellEmailBlock .socialMeduiaLogo{
+    width: 70%;
+    height: auto;
+    background-color: rgb(7, 8, 70);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+}
+.contactFooterBlock .contactTellEmailBlock .socialMeduiaLogo > div{
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+.contactFooterBlock .contactTellEmailBlock .socialMeduiaLogo > div > img{
+    width: 2.5vw;
 }

@@ -6,19 +6,22 @@ function ContactFooter(): JSX.Element {
             <div className="contactTellEmailBlock">
                 <div className="tellblock">
                     <div className="tellLogo">
-                        <img src="" alt="" />
+                        <img src="../../../../img/mobileImg.png" alt="" />
                     </div>
                     <div className="tellNumber">
-                        <h1>0908765545</h1>
+                        <h1>+421 0908 765 545</h1>
                     </div>
                 </div>
                 <div className="EmailBlock">
                     <div className="emailLogo">
-                        <img src="" alt="" />
+                        <img src="../../../../img/oblImg.png" alt="" />
                     </div>
                     <div className="emailLink">
                         <div className="email">
-                            <h1>marek.jurca@gmail.com</h1>
+                            <a
+                                href="mailto:email@example.com">
+                                marek.jurca@gmail.com
+                            </a>
                         </div>
                         <div className="ticket">
                             <img src="" alt="" />
@@ -26,9 +29,18 @@ function ContactFooter(): JSX.Element {
                     </div>
                 </div>
                 <div className="socialMeduiaLogo">
-                    <div className="logo"></div>
-                    <div className="logo"></div>
-                    <div className="logo"></div>
+                    <div className="logo"
+                        onClick={() => { window.location.replace("") }}>
+                        <img src="../../../../img/facebbokImg.png" alt="" />
+                    </div>
+                    <div className="logo"
+                        onClick={() => { window.location.replace("") }}>
+                        <img src="../../../../img/instagramImg.png" alt="" />
+                    </div>
+                    <div className="logo"
+                        onClick={() => { window.location.replace("") }}>
+                        <img src="../../../../img/linkedImg.png" alt="" />
+                    </div>
                 </div>
             </div>
         </div>

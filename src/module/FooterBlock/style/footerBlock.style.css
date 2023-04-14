@@ -11,7 +11,7 @@
 
 .footerBlockContent .footerTittle{
     width: 85%;
-    height: 30%;
+    height: 35%;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -22,12 +22,13 @@
     height: auto;
 }
 .footerBlockContent .footerTittle .footerTittleImg >img{
-    width: 25vw;
+    width: 27vw;
+    border: 1px solid red;
 }
 /* ----------------------------------- */
 .footerBlockContent .footerMedia{
     width: 85%;
-    min-height: 60%;
+    min-height: 50%;
     background-color: black;
     display: flex;
     flex-direction: row;
