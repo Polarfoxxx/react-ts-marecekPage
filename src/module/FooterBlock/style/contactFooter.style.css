@@ -14,8 +14,9 @@
     align-items: center;
     justify-content: start;
     flex-direction: column;
-    gap: 2.5vw;
+    gap: 4vw;
 }
+
 /* ------------------------------------------------ */
 /* ------------------------------------------------ */
 
@@ -38,7 +39,8 @@
     font-style: normal;
     font-weight: 800;
 }
-.contactFooterBlock .tellblock>div>h1{
+
+.contactFooterBlock .tellblock>div>h1 {
     font-family: var(--font);
     font-style: normal;
     font-weight: 800;
@@ -46,8 +48,8 @@
 }
 
 /* ------------------------------------------------ */
-.contactFooterBlock .EmailBlock{
-    width: 70%;
+.contactFooterBlock .EmailBlock {
+    width: 100%;
     height: auto;
     background-color: rgb(148, 90, 13);
     display: flex;
@@ -55,13 +57,16 @@
     justify-content: start;
     align-items: center;
     gap: 1vw;
+    position: relative;
 }
-.contactFooterBlock .EmailBlock .emailLogo{
+
+.contactFooterBlock .EmailBlock .emailLogo {
     width: auto;
     height: auto;
     border: 1px solid red;
 }
-.contactFooterBlock .EmailBlock .emailLink .email > a{
+
+.contactFooterBlock .EmailBlock .emailLink .email>a {
     font-family: var(--font);
     font-style: normal;
     font-weight: 800;
@@ -69,8 +74,31 @@
     text-decoration: none;
     color: white;
 }
+
+.contactFooterBlock .EmailBlock .ticket {
+    width: 8vw;
+    height: 8vw;
+    border: 1px solid black;
+    position: absolute;
+    left: -3vw;
+    bottom: -6.5vw;
+    transition: 0.4s;
+    border: 0.4vw solid transparent;
+}
+
+.contactFooterBlock .EmailBlock .ticket:hover {
+    border: 0.4vw solid var(--orangeColor);
+}
+
+.contactFooterBlock .EmailBlock .ticket .ticketContent {
+    width: 100%;
+    height: 100%;
+}
+.contactFooterBlock .EmailBlock .ticket .ticketContent > img{
+    width: 100%;
+}
 /* ------------------------------------------------ */
-.contactFooterBlock .contactTellEmailBlock .socialMeduiaLogo{
+.contactFooterBlock .contactTellEmailBlock .socialMeduiaLogo {
     width: 70%;
     height: auto;
     background-color: rgb(7, 8, 70);
@@ -80,11 +108,13 @@
     align-items: center;
     gap: 1.5vw;
 }
-.contactFooterBlock .contactTellEmailBlock .socialMeduiaLogo > div{
+
+.contactFooterBlock .contactTellEmailBlock .socialMeduiaLogo>div {
     width: auto;
     height: auto;
     cursor: pointer;
 }
-.contactFooterBlock .contactTellEmailBlock .socialMeduiaLogo > div > img{
+
+.contactFooterBlock .contactTellEmailBlock .socialMeduiaLogo>div>img {
     width: 2.5vw;
 }

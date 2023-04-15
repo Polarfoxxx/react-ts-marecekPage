@@ -5,6 +5,7 @@ import { Container } from "../../Conatiner"
 
 import ContactFooter from "./ContactFooter";
 import InstagramFooter from "./InstagramFooter";
+import LastRow from "./LastRow";
 
 function FooterBlock(): JSX.Element {
   const { navButtonName } = useContext(Container.Context);
@@ -34,9 +35,7 @@ function FooterBlock(): JSX.Element {
         </div>
       </div>
       <div className="footerLastRow">
-        <div className="lastRowTxt">
-          <h1>Developed by Stará Garda od Radka Kissa © 2023</h1>
-        </div>
+        <LastRow />
       </div>
     </div>
   )

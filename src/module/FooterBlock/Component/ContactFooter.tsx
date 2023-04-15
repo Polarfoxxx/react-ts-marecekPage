@@ -23,10 +23,13 @@ function ContactFooter(): JSX.Element {
                                 marek.jurca@gmail.com
                             </a>
                         </div>
-                        <div className="ticket">
-                            <img src="" alt="" />
-                        </div>
+                      
                     </div>
+                    <div className="ticket">
+                            <div className="ticketContent">
+                                <img src="../../../../img/footerTicket.png" alt="" />
+                            </div>
+                        </div>
                 </div>
                 <div className="socialMeduiaLogo">
                     <div className="logo"

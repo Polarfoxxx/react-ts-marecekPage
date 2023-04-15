@@ -48,10 +48,3 @@
     justify-content: center;
     background-color: black;
 }
-.footerBlockContent .footerLastRow .lastRowTxt{
-    width: auto;
-    height: auto;
-    position: relative;
-    background-color: aliceblue;
-    bottom: 0.5vw;
-}
