@@ -38,7 +38,7 @@ function PortfolioBlock(): JSX.Element {
               </div>
               <div className="link-block">
                 <Link className="link logo" to="/logo">
-                  Logo
+                  Logo dizajn
                 </Link>
               </div>
               <div className="link-block">

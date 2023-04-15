@@ -66,6 +66,14 @@
     justify-content: center;
     align-items: center;
 }
+.portfolioBlockContent .portfolioRouter .routes-container .toogle-link-container .link-block .link:hover{
+    font-family: var(--font);
+}
+.portfolioBlockContent .portfolioRouter .routes-container .toogle-link-container .link-block .logo:hover{
+    font-family: var(--fontLight);
+}
+
+
 /* ----------------------------------------- */
 /* ----------------------------------------- */
 
