@@ -31,6 +31,7 @@
     font-size: 5vw;
     font-family: var(--font);
     border: 1px solid red;
+    z-index: 2;
 }
 .tittleContentDetail .tittleTectBlock .lastLine{
     display: flex;
